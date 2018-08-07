@@ -1,0 +1,118 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+	}
+	
+.main {
+	position: relative;
+}
+
+.main video {
+	width: 100%;
+	}
+	
+.main .content {
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main h1 {
+	font-family: 'Bubblegum Sans', cursive;
+	color: white;
+	text-align: center;
+	font-size: 100px;
+	text-shadow: 0 2px 3px black;
+}
+.btn {
+	font-family: 'Just Another Hand', cursive;
+	padding: 10px;
+	display: block;
+	margin: auto;
+	width: 20%;
+	background-color: #4386fc;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	text-decoration: none;
+	border-radius: 15px;
+	
+}
+
+.supporting {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: block;
+	background-color: white;
+}
+
+.supporting h2 {
+	font-family: 'Viga', sans-serif;
+	font-size: 48px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	
+}
+
+.supporting p {
+	color: #333333;
+	font-size: 22px;
+	padding: 0 30px;
+	
+ }
+ 
+ .feature {
+	 height: 500px;
+	 background: url("../media/camp.png");
+	 background-size: cover;
+	 clear: both;
+ }
+ 
+ .app {
+	 width: 87px;
+	 
+	 }
+ 
+ .footer {
+	 text-align: center;
+	 padding: 30px;
+ }
+ 
+ /* Work backwards from desktop to tablet to mobile */
+@media (max-width: 960px) {
+	.main {
+		height: 540px;
+		
+	}
+	.main video {
+		height: 500px;
+		width: 900px;
+	}
+	.main h1 {
+		font-size: 32px;
+	}
+}
+@media (max-width: 440px) {
+	.main {
+	     background-color: black;
+		
+	}
+	.main video {
+		display: none;
+	
+	}
+	
+}	
+
+	
+	
+
